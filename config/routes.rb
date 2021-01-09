@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :wechat do
+    get "games/fullview"
+    get "games/tower"
+    get "games/introduce"
+    get "games/menu"
+    get "auth/login"
+    get "auth/authorization"
+  end
 end

@@ -20,5 +20,6 @@ group :development do
   gem "spring"
   gem "rufo"
   gem "solargraph"
+  gem "htmlbeautifier"
 end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
