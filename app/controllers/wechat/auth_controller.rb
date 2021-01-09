@@ -1,4 +1,4 @@
-class Wechat::AuthController < ApplicationController
+class Wechat::AuthController < Wechat::ApplicationController
   def authorization
   end
 

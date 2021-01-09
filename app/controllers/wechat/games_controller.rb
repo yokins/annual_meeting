@@ -1,4 +1,4 @@
-class Wechat::GamesController < ApplicationController
+class Wechat::GamesController < Wechat::ApplicationController
   def menu
   end
 

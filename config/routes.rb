@@ -7,4 +7,6 @@ Rails.application.routes.draw do
     get "auth/login"
     get "auth/authorization"
   end
+
+  root 'wechat/auth#authorization'
 end
