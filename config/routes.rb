@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get "games/tower"
     get "games/introduce"
     get "games/menu"
+    get "commits/new"
     get "auth/login"
     get "auth/authorization"
   end
